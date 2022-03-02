@@ -1,0 +1,27 @@
+.main-nav{
+    list-style:none;
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: #13a4a4;
+}
+.main-nav__item{
+    display:inline;
+}
+.main-nav__item a{ /*Ser especifico*/
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover{
+    color: blue;
+}
+
+.main-nav__item a:active{
+    color: red;
+}
+
+.main-nav__item a::after{
+    content: " | ";
+}
+

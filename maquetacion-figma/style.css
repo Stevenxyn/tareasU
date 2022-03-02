@@ -1,0 +1,4 @@
+/*Da scroll suave*/
+* {
+  scroll-behavior: smooth;
+}

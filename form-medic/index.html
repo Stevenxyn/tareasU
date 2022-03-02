@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="/styles.css">
+     <title>Solicitud Médica</title>
+</head>
+
+<body>
+     <div class="contend-head">
+          <div class="title">
+               <h1>Solicitud Cita Médica</h1>
+          </div>
+          <div class="contend">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quidem. Sequi molestias
+                    voluptatibus beatae totam quibusdam magnam sit iure cumque quaerat harum cum libero fuga,
+                    recusandae, eveniet praesentium. Aspernatur voluptate quis autem quisquam eligendi dolorem
+                    veniam qui facilis eum suscipit quasi, consequuntur et nemo voluptas alias iusto inventore.
+                    Repudiandae, et.</p>
+               <hr>
+          </div>
+     </div>
+
+     <form>
+          <h2>Agenda tu cita aqui</h2>
+          <label for="nombre" class="nombre">
+               <span>Nombre Paciente: </span>
+               <input type="text" nome="nombre" placeholder="Paciente">
+          </label>
+
+          <label for="cajas-compensacion">
+               <span>Caja Compensación: </span>
+               <input list="cajas-compensacion">
+               <datalist id="cajas-compensacion">
+                    <option value="compensar"></option>
+                    <option value="sura"></option>
+                    <option value="nueva-eps"></option>
+                    <option value="colsubdicio"></option>
+                    <option value="famisanar"></option>
+                    <option value="cruz roja"></option>
+               </datalist>
+          </label>
+
+          <label for="email">
+               <span>Email Paciente: </span>
+               <input type="text" nome="nombre" placeholder="Tu email aqui">
+          </label>
+
+          <label for="edad">
+               <span>Edad Paciente: </span>
+               <input type="number" nome="edad" placeholder="Digite su edad" min="0" max="100" required>
+          </label>
+
+          <label for="sintomas">
+               <span>¿Sintomas de covid?: </span>
+               <input type="checkbox" name="sintomas" required>
+          </label>
+
+          <label for="sintomas-2">
+               <span>¿Ya tuvo covid?: </span>
+               <input type="checkbox" name="sintomas-2" required>
+          </label>
+
+          <label for="sintomas-3">
+               <span>¿Ya esta vacunado?: </span>
+               <input type="checkbox" name="sintomas-3" required>
+          </label>
+
+          <label for="tipo-cita">
+               <span>Que consulta desea: </span>
+               <select name="tipo-cita" required>
+                    <option>Seleccionar</option>
+                    <option value="cita-general">Cita general</option>
+                    <option value="odontologia">Odontologia</option>
+                    <option value="prueba-covid">Prueba Covid</option>
+                    <option value="pediatra">Pediatra</option>
+               </select>
+          </label>
+
+          <label for="fecha">
+               <span>Seleccione la fecha: </span>
+               <input type="datetime-local" name="fecha" required>
+          </label>
+
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Borrar todo">
+     </form>
+     <hr>
+     <footer class="footer-end">
+          Stevenxyn 2022
+     </footer>
+</body>
+
+</html>

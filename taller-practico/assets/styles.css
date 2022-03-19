@@ -1,0 +1,55 @@
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  background: #000;
+  object-fit: cover;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+p {
+  color: white;
+}
+
+.img-title {
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.title {
+  display: inline-block;
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+
+.img-title > img {
+  border-radius: 15px;
+}
+
+.title > h2 {
+  color: white;
+  font-weight: 900;
+  text-decoration: underline white;
+}
+
+.img-concert > h2 {
+  color: rgb(255, 255, 255);
+  text-decoration: underline white;
+  padding: 15px 0;
+}
+
+.img-concert,
+figure,
+figcaption {
+  color: white;
+  text-align: center;
+}
+
+footer {
+  padding-top: 50px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.199);
+}

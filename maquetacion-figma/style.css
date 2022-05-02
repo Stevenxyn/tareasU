@@ -6,12 +6,11 @@
 }
 
 .img-hero {
-  background-image: url(/img/hero.jpg);
+  background-image: url(./img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
   width: 100%;
-  
 }
 
 .btn-up {
@@ -39,4 +38,11 @@
 
 img{
   object-fit: cover;
+}
+
+.footer-name{
+  text-align: center;
+  margin-top: -50px;
+  height: 40px;
+  color: #343a40;
 }
